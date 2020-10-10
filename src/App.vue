@@ -16,10 +16,10 @@
                     });
                 },
                 columns:[
-                    {title:"歌名",field:'name'},
-                    {title:"时长",field:'time'},
-                    {title:"歌手",field:'singer'},
-                    {title:"专辑",field:'album'},
+                    {title:"序号",field:'name'},
+                    {title:"主机",field:'time'},
+                    {title:"端口",field:'singer'},
+                    {title:"状态",field:'album'},
                 ]
             }
         },
