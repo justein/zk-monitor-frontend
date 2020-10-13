@@ -5,7 +5,7 @@
     <v-button type="success">更新</v-button>
     <v-button type="error">删除</v-button>
 
-    <v-data-table :data='loadData' :columns='columns' stripe bordered></v-data-table>
+    <!-- <v-data-table :data='loadData' :columns='columns' stripe bordered></v-data-table> -->
   </div>
   
 </template>

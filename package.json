@@ -13,6 +13,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "vue": "^2.5.2",
+    "vue-axios": "^3.0.1",
     "vue-beauty": "^2.0.0-beta.19",
     "vue-router": "^3.0.1"
   },
