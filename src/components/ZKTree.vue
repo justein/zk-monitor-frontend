@@ -26,8 +26,18 @@ export default {
             this.treeData = response.data;
         });
     },
-    getData() {
+    getData(node) {
+        console.log(node)
 
+         var api="/api/zkmonitor/allzkNodes"
+        this.$axios.get(api,{
+            params: {
+        "zkNodePath": '/'+node.title
+    }
+        })
+        .then((response) =>{
+            node.children = response.data;
+        });
     },
     selectFn(data) {
       console.log(data);
